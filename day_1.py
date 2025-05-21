@@ -48,3 +48,29 @@ print (d)
 print(a and b )
 print(a and c)
 print((a and b) or (b or d))
+
+
+# Comparisions
+
+print(4<3)
+print(5>4)
+
+h = 3==2
+print(h)
+
+a = 4
+b = 5
+c = 6
+d = -3
+
+(a<b) and (b<c) or (d==a)
+
+print ((2!=3))
+print (not(2!=3))
+
+
+
+
+
+
+
