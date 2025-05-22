@@ -1,4 +1,4 @@
-#control flow 
+""" """ #control flow 
 
 # (if condition)
 a = int(input("enter number 1st:"))
@@ -58,4 +58,4 @@ if x>5:
     else:
         print("<=10")
         print("Inside the else part of nested if")
-print("Outside all ifs")       
+print("Outside all ifs")   
