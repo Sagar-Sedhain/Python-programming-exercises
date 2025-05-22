@@ -1,27 +1,27 @@
 #control flow 
 
 # (if condition)
-""" a = int(input("enter number 1st:"))
+a = int(input("enter number 1st:"))
 b = int(input("enter number 2nd:"))
 if a>b:
     print(a)
 if b>a:
-    print(b) """
+    print(b)
     
 #(if-else condition)
-""" a = int(input("enter number 1st:"))
+a = int(input("enter number 1st:"))
 b = int(input("enter number 2nd:"))
 
 if a>b:
     print("1st is greater number"
 else:
     print("2nd is greater number")
-     """
+    
      
      
 # (If-Elif-Else)
 
-""" a = float(input("enter number 1st:"))
+a = float(input("enter number 1st:"))
 b = float(input("enter number 2nd:"))
 
 if a>b:
@@ -29,11 +29,11 @@ if a>b:
 elif a == b:
       print("a and b are equal")
 else:
-    print("2nd is greater number") """
+    print("2nd is greater number")
     
     
 
-""" a = int(input("Enter marks:"))
+a = int(input("Enter marks:"))
 if a >= 85:
     print("A grade")
 elif (a < 85 ) and (a >= 80):
@@ -44,7 +44,7 @@ elif ( a > 75 ) and (a >= 70):
     print("B- grade")
 else:
     print("Below average")
-     """
+
 
 # Nested if
 
@@ -58,4 +58,4 @@ if x>5:
     else:
         print("<=10")
         print("Inside the else part of nested if")
-print("Outside all ifs")        
+print("Outside all ifs")       
