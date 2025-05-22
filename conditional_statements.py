@@ -13,7 +13,7 @@ a = int(input("enter number 1st:"))
 b = int(input("enter number 2nd:"))
 
 if a>b:
-    print("1st is greater number"
+    print("1st is greater number")
 else:
     print("2nd is greater number")
     
@@ -58,4 +58,4 @@ if x>5:
     else:
         print("<=10")
         print("Inside the else part of nested if")
-print("Outside all ifs")   
+print("Outside all ifs")    
