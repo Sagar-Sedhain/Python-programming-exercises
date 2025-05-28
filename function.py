@@ -142,4 +142,22 @@ def  AA(A = [0,2,3,4]):
 A2 = [1,6,7]
 AA()
 AA(A2)
-        
+
+
+# Function exercise
+#finding the minimum number and its index
+
+def farrange(L):
+    m = L[0]
+    idx = 0
+    i = 0
+    for x in L:
+        if x<m:
+            m =x
+            idx = i
+        else:
+            pass
+        i +=1
+    return m,idx
+(a,b) = farrange([2,3,1, 9,6,7])
+print(a,b)
