@@ -161,3 +161,15 @@ def farrange(L):
     return m,idx
 (a,b) = farrange([2,3,1, 9,6,7])
 print(a,b)
+
+# Swaping the value
+
+def swapValue(L,idx1,idx2):
+    temp = L[idx1]
+    L[idx1] = L[idx2]
+    L[idx2] = temp
+    return L
+L= [1,2,3,4,5,6,7]
+L2 = swapValue (L,0,1)
+print(L2)
+ 
